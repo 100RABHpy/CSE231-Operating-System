@@ -1,0 +1,11 @@
+PLEASE USE CSV FILE ATTACHED because there are 2-3 csv file sent by instructor and i used the file with "," separation whole program is designed accordingly. 
+
+In my program i first created new process using fork than i checked that if fork executed correctly or not the using waitpid i executed child first
+
+In child process i called getAverage function declared in my program which take Section as argument and print out the details of all student in that section with their AVERAGE on nextline;
+
+In parent i called same function getAverage but with Section B as argument.
+
+In my program i used only system call to print(write) ,to read csv file and open for file descriptor.There no use of printf.
+
+Also as write only writes string i used sprintf function to convert  integer to string;

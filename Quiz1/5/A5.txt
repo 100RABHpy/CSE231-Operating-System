@@ -1,0 +1,3 @@
+Refrering from:https://www.geeksforgeeks.org/difference-32-bit-64-bit-operating-systems/
+
+To use full power of Ram provided we should use long mode as it can address 16 exabyte of memory whereas if we use real mode we can only able to address 2^16 bytes(65536 bytes) very less than provided ram can handle(320000 bytes).

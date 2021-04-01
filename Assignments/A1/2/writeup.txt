@@ -1,0 +1,101 @@
+IMPORTANT NOTE: All external command will not work if u change the directory. Because in the new directory there is no executable for these program. So please use external command in same directory.
+Even if I given absolute path it may not run in your pc because directory can differ so I opt for executing in same directory so I can at least show that it's working
+=======To Execute the program =======
+Just run makefile by using command make in terminal and please make directory is 2
+
+============= Command Used=============
+General corner case 
+1-Empty input
+2-Wrong command given
+
+cd 
+options
+1. ~
+2. -P
+corner case 
+1-wrong directory
+Explanation- In case of wrong path is given or directory not present
+2-wrong option
+Explanation- I implemented options mentioned above if any other option is given than program will print wrong option and detail of available option. It will continue executing.
+
+echo
+In echo give printable string in ""
+options
+1. -E
+2. -e
+corner case
+1-Give input in "" in case of -e -E options.
+Explanation-  give input with ""
+2-When nothing is given.
+Explanation- When nothing is given it will ask to give something to print
+
+pwd
+--help
+-L
+corner case 
+1-Unnecessary argument given
+Explanation- As pwd doesn't accept any argument and only accepts option so if in case any argument is give it will print that pwd doesn't accept arguments.
+2-wrong option
+Explanation- I implemented options mentioned above if any other option is given than program will print wrong option and detail of available option. It will continue executing.
+
+history
+1. -d offset
+2. -c
+corner case 
+1-wrong offset in -d option
+Explanation - As -d option accept an integer input if wrong input it will show wrong offset is given
+2-wrong option
+Explanation- I implemented options mentioned above if any other option is given than program will print wrong option and detail of available option. It will continue executing.
+
+exit
+corner case 
+1-wrong status
+Explanation- As status must be integer , so if string is given than it will show wrong status is given and exit with status 0.
+
+cat
+1. -n
+2. -E
+corner case 
+1-No such file in directory
+Explanation - if file is not present in directory
+2-wrong option
+Explanation- I implemented options mentioned above if any other option is given than program will print wrong option and detail of available option. It will continue executing.
+
+ls
+1. -a
+2. -1
+corner case 
+1-Unnecessary argument given
+Explanation- As ls doesn't accept any argument and only accepts option so if in case any argument is give it will print that ls doesn't accept arguments.
+2-wrong option
+Explanation- I implemented options mentioned above if any other option is given than program will print wrong option and detail of available option. It will continue executing.
+
+rm
+1. -i
+2. -v
+corner case 
+1-No such file in directory
+Explanation - if file is not present in directory
+2-wrong option
+Explanation- I implemented options mentioned above if any other option is given than program will print wrong option and detail of available option. It will continue executing.
+3-Directory not given
+
+date
+1. --help
+2. -u
+corner case 
+1-Unnecessary argument given
+Explanation- As date doesn't accept any argument and only accepts option so if in case any argument is give it will print that date doesn't accept arguments.
+2-wrong option
+Explanation- I implemented options mentioned above if any other option is given than program will print wrong option and detail of available option. It will continue executing.
+
+mkdir
+1. -v
+2. -m MODE
+corner case 
+1-Cannot create: file exist
+Explanation - if file is already exist in directory
+2-Directory name not given
+Explanation- if user invoke invoke mkdir without any argument
+3- wrong option
+Explanation- I implemented options mentioned above if any other option is given than program will print wrong option and detail of available option. It will continue executing.

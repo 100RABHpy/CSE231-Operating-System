@@ -1,0 +1,2 @@
+Yes main can call checkGreater
+To make this happen we have to use -e feature of gcc/nasm so that we can explicitly tell which from entry point we want to start 

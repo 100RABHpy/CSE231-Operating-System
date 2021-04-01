@@ -1,0 +1,2 @@
+In this question to store long/int in char array using long int pointer we first typecaste the pointer of char array to long int pointer and then using that point we stores value. 
+Also while lopping over in case of int we increment "i" by 4 bits and in case of long we increment "i" by 8 bits

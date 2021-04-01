@@ -1,0 +1,12 @@
+
+1:
+warning: return type defaults to ‘int’ [-Wimplicit-int]
+Explanation: In c if we don't provide any return type it assumes return type to be int. And it just giving warning that it assuming the return type as int as no explict type is provided.
+
+2:
+In function ‘add’:
+warning: implicit declaration of function ‘round’ [-Wimplicit-function-declaration]
+
+warning: incompatible implicit declaration of built-in function ‘round'
+
+Explanation: We are recieving this error because there is no explicit defination of round, we have to include Math.h header file to use round fuction or we have to define it ourself.

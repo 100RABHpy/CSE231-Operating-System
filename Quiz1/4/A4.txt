@@ -1,0 +1,4 @@
+Explanation:
+As in x86_64 we have to pass 6 variable to acess stack, so it is convienent to use register incase of 64 bit implementation.
+
+So the only change i made is to use register in case of x86_64
