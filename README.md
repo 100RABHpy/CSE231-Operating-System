@@ -8,7 +8,6 @@ Language and tools used: C programing language, Linux, Qemu emulator.
 * Combining C and assembly
 
 ## *Course*
-* Created a new child process( using fork()) to read a CSV and compute data.
 * Create a Basic Linux shell. Some operation this shell can perform are grep, history,ls, rm,etc
 * Worked with pthread library
 * Created my own system call by modifying Linux kernel.
@@ -18,3 +17,4 @@ Language and tools used: C programing language, Linux, Qemu emulator.
 * Using counting solved a different version of dinning philosopher problem.
 * Implemented bootloader and booted this bootable image via legacy BIOS. In this boot loader content of CR0 registed is changed.
 * Created a basic text editor and using termios.h header file implemented a feature such that simultaneous accesses to the same file using the editor should throw an advisory warning on the one who opens the file that already is advisory locked.
+* Created a new child process( using fork()) to read a CSV and compute data.
