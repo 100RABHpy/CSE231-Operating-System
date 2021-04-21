@@ -1,8 +1,7 @@
 # CSE231-Operating-System
-### This repository contains all the work i did for my Operating System course.
-
+### This repository contains all the work i did for my Operating System course. 
+Language and tools used: C programing language, Linux, Qemu emulator.
 ## *Refresher Module*
-Skill used: C
 * Learned how to C compilation works
 * What is header file
 * What happens at different stages of compilation(Preprocessing, Compilation, Assembly, Linking)
